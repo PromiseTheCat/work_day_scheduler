@@ -30,5 +30,7 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
+##Usage
 
+When you open a planner the current date is displayed at the top of the calendar which is presented with timeblocks for standard business hours. Each timeblock is colored to indicate past, present or future. You can enter the event which will be stored at local storage and displayed at text area.
 
