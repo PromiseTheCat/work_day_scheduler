@@ -10,18 +10,22 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  height: 100px;
 }
 
 .description {
   white-space: pre-wrap;
+  border-color: #000000;
 }
 
 .time-block {
   border-radius: 15px;
+  text-align: center;
 }
 
 .row {
   border-top: 1px solid white;
+  white-space: pre-wrap;
 }
 
 .hour {
@@ -32,7 +36,7 @@ textarea {
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: black;
 }
 
 .present {
@@ -42,7 +46,7 @@ textarea {
 
 .future {
   background-color: #77dd77;
-  color: white;
+  color: black;
 }
 
 .saveBtn {
@@ -51,6 +55,10 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .saveBtn i:hover {
